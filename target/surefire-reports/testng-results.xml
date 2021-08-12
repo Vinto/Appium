@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-11T17:15:01 CAT" name="Suite" finished-at="2021-08-11T17:15:40 CAT" duration-ms="38475">
+    <groups>
+    </groups>
+    <test started-at="2021-08-11T17:15:01 CAT" name="Android" finished-at="2021-08-11T17:15:40 CAT" duration-ms="38475">
+      <class name="ToDoAndroid">
+        <test-method is-config="true" signature="androidSetUp()[pri:0, instance:ToDoAndroid@37918c79]" started-at="2021-08-11T17:15:01 CAT" name="androidSetUp" finished-at="2021-08-11T17:15:09 CAT" duration-ms="7798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidSetUp -->
+        <test-method signature="addTaskTest(java.lang.String,java.lang.String)[pri:0, instance:ToDoAndroid@37918c79]" started-at="2021-08-11T17:15:09 CAT" name="addTaskTest" data-provider="tasks data" finished-at="2021-08-11T17:15:25 CAT" duration-ms="15637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Get done with Appium course]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Finish as soon as yesterday]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTaskTest -->
+        <test-method signature="addTaskTest(java.lang.String,java.lang.String)[pri:0, instance:ToDoAndroid@37918c79]" started-at="2021-08-11T17:15:25 CAT" name="addTaskTest" data-provider="tasks data" finished-at="2021-08-11T17:15:40 CAT" duration-ms="14981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Start Automating Mukuru apps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cash Stops app, SMH app and Agents app]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTaskTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ToDoAndroid@37918c79]" started-at="2021-08-11T17:15:40 CAT" name="tearDown" finished-at="2021-08-11T17:15:40 CAT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ToDoAndroid -->
+    </test> <!-- Android -->
+  </suite> <!-- Suite -->
+</testng-results>
